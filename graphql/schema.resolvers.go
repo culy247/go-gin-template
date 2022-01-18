@@ -6,9 +6,9 @@ package graphql
 import (
 	"context"
 
-	"github.com/ruyjfs/example-golang/graphql/generated"
-	"github.com/ruyjfs/example-golang/graphql/model"
-	"github.com/ruyjfs/example-golang/graphql/resolvers"
+	"github.com/culy247/go-gin-template/graphql/generated"
+	"github.com/culy247/go-gin-template/graphql/model"
+	"github.com/culy247/go-gin-template/graphql/resolvers"
 )
 
 func (r *mutationResolver) CreateUser(ctx context.Context, input model.NewUser) (*model.User, error) {

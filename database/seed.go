@@ -3,7 +3,7 @@ package database
 import (
 	"log"
 
-	"github.com/ruyjfs/example-golang/database/seeds"
+	"github.com/culy247/go-gin-template/database/seeds"
 )
 
 func Seeder() {

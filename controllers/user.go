@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/culy247/go-gin-template/config"
+	"github.com/culy247/go-gin-template/core"
+	"github.com/culy247/go-gin-template/models"
+	"github.com/culy247/go-gin-template/services"
 	"github.com/gin-gonic/gin"
-	"github.com/ruyjfs/example-golang/config"
-	"github.com/ruyjfs/example-golang/core"
-	"github.com/ruyjfs/example-golang/models"
-	"github.com/ruyjfs/example-golang/services"
 )
 
 type User struct {

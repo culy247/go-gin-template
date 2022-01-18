@@ -3,8 +3,8 @@ package seeds
 import (
 	"log"
 
-	"github.com/ruyjfs/example-golang/config"
-	"github.com/ruyjfs/example-golang/models"
+	"github.com/culy247/go-gin-template/config"
+	"github.com/culy247/go-gin-template/models"
 )
 
 func Perfils() {
@@ -14,14 +14,15 @@ func Perfils() {
 	result := db.Find(&Perfils)
 	if result.RowsAffected >= 4 {
 		log.Printf("Seed (Perfils): Nothing to seed")
-		return
+		//return
 	}
 
 	Perfils = []models.Perfil{
 		{Description: "ADMIN"},
 		{Description: "GUEST"},
 	}
-
-	db.Create(&Perfils)
+	for i := 0; i < 1000000; i++ {
+		db.Create(&Perfils)
+	}
 	log.Printf("Seed (Perfils): Success")
 }

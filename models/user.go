@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/ruyjfs/example-golang/core"
+	"github.com/culy247/go-gin-template/core"
 )
 
 type User struct {

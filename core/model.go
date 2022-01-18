@@ -3,7 +3,7 @@ package core
 import (
 	"time"
 
-	"github.com/ruyjfs/example-golang/config"
+	"github.com/culy247/go-gin-template/config"
 	"gorm.io/gorm"
 )
 

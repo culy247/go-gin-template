@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/ruyjfs/example-golang/core"
+	"github.com/culy247/go-gin-template/core"
 )
 
 type Perfil struct {

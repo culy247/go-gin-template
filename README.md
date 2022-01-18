@@ -132,7 +132,7 @@ All libs in Golang have a module name.
 This is for a package manage for Golang, like a npm/yarm for nodeJS, gradlew/mavem for Java, compose for PHP, mix for Elixir and many more.
 
 ```bash
-go mod init github.com/ruyjfs/example-golang
+go mod init github.com/culy247/go-gin-template
 ```
 
 > See: go.mod

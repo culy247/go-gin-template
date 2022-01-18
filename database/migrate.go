@@ -3,8 +3,8 @@ package database
 import (
 	"log"
 
-	"github.com/ruyjfs/example-golang/config"
-	"github.com/ruyjfs/example-golang/models"
+	"github.com/culy247/go-gin-template/config"
+	"github.com/culy247/go-gin-template/models"
 )
 
 func Migrate() {

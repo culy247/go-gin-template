@@ -2,9 +2,9 @@ package routes
 
 import (
 	"github.com/99designs/gqlgen/handler"
+	"github.com/culy247/go-gin-template/graphql"
+	"github.com/culy247/go-gin-template/graphql/generated"
 	"github.com/gin-gonic/gin"
-	"github.com/ruyjfs/example-golang/graphql"
-	"github.com/ruyjfs/example-golang/graphql/generated"
 )
 
 func Graphql(router *gin.Engine) *gin.Engine {

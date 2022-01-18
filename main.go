@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/ruyjfs/example-golang/database"
-	"github.com/ruyjfs/example-golang/routes"
+	"github.com/culy247/go-gin-template/database"
+	"github.com/culy247/go-gin-template/routes"
 )
 
 func main() {
 	database.Migrate()
-	// database.Seeder()
+	database.Seeder()
 	routes.Run()
 }

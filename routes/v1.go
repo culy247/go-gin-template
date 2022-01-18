@@ -1,8 +1,8 @@
 package routes
 
 import (
+	"github.com/culy247/go-gin-template/controllers"
 	"github.com/gin-gonic/gin"
-	"github.com/ruyjfs/example-golang/controllers"
 )
 
 func V1(r *gin.Engine) *gin.Engine {

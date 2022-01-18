@@ -1,9 +1,9 @@
 package resolvers
 
 import (
-	"github.com/ruyjfs/example-golang/core"
-	"github.com/ruyjfs/example-golang/graphql/model"
-	"github.com/ruyjfs/example-golang/models"
+	"github.com/culy247/go-gin-template/core"
+	"github.com/culy247/go-gin-template/graphql/model"
+	"github.com/culy247/go-gin-template/models"
 )
 
 type User struct {

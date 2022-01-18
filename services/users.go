@@ -3,12 +3,12 @@ package services
 import (
 	"gorm.io/gorm"
 
-	"github.com/ruyjfs/example-golang/config"
-	"github.com/ruyjfs/example-golang/core"
-	"github.com/ruyjfs/example-golang/graphql/model"
+	"github.com/culy247/go-gin-template/config"
+	"github.com/culy247/go-gin-template/core"
+	"github.com/culy247/go-gin-template/graphql/model"
 
-	// "github.com/ruyjfs/example-golang/graphql/model"
-	"github.com/ruyjfs/example-golang/models"
+	// "github.com/culy247/go-gin-template/graphql/model"
+	"github.com/culy247/go-gin-template/models"
 )
 
 type Users struct {
